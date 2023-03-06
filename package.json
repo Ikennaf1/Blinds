@@ -1,0 +1,32 @@
+{
+  "name": "blinds",
+  "version": "0.0.1",
+  "description": "A dark mode plugin for websites",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch",
+    "build": "webpack",
+    "start": "webpack serve --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ikennaf1/Blinds.git"
+  },
+  "keywords": [
+    "Dark",
+    "Night",
+    "mode"
+  ],
+  "author": "Ikenna Isiogu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ikennaf1/Blinds/issues"
+  },
+  "homepage": "https://github.com/Ikennaf1/Blinds#readme",
+  "devDependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1"
+  }
+}
