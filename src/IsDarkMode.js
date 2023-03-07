@@ -1,3 +1,8 @@
+/**
+ * Checks if the browser is set to dark mode
+ * @param: `NULL`
+ * @returns `boolean`: `true` if browser is in dark mode, else `false`
+ */
 export default function IsDarkMode()
 {
     let mediaQueryObj = window.matchMedia('(prefers-color-scheme: dark)');

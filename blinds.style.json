@@ -1,0 +1,13 @@
+{
+    "div": {
+        "background-color": "red",
+        "border-color": "gray",
+        "color": "#f7f8fc"
+    },
+    ".class": {
+        "background-color": "green"
+    },
+    "#id": {
+        "background-color": "blue"
+    }
+}
