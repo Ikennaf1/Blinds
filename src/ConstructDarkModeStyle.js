@@ -20,6 +20,6 @@ export default function ConstructDarkModeStyle()
         });
         style += "}\n";
     });
-    console.log(style);
+    // console.log(style);
     return style;
 }

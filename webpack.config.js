@@ -7,7 +7,7 @@ module.exports = {
         static: './dist',
     },
     output: {
-        filename: 'main.js',
+        filename: 'blinds.js',
         path: path.resolve(__dirname, 'dist'),
         // clean: true,
     },

@@ -1,4 +1,4 @@
 import IsDarkMode from './IsDarkMode';
-import ConstructDarkModeStyle from './ConstructDarkModeStyle';
+import ActivateDarkMode from './ActivateDarkMode';
 
-ConstructDarkModeStyle();
+ActivateDarkMode();

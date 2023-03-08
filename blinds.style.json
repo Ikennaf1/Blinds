@@ -1,6 +1,6 @@
 {
-    "div": {
-        "background-color": "red",
+    "body": {
+        "background-color": "coral",
         "border-color": "gray",
         "color": "#f7f8fc"
     },
