@@ -1,13 +1,14 @@
 import IsDarkMode from './IsDarkMode';
 import ActivateDarkMode from './ActivateDarkMode';
 import DeactivateDarkMode from './DeactivateDarkMode';
+import { SetCookie, CheckCookie, DeleteCookie } from './Cookie';
 
-let x = 0;
 document.querySelector("#swd").onclick = () => {
-    if (x == 0) {
-        ActivateDarkMode();
-    } else {
+    if (CheckCookie("blinds_cookie")) {
         DeactivateDarkMode();
+        DeleteCookie("blinds_cookie");
+    } else {
+        ActivateDarkMode();
+        SetCookie("blinds_cookie");
     }
-    x = (x + 1) % 2;
 }
