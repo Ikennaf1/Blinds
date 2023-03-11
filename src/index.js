@@ -1,14 +1,13 @@
-import IsDarkMode from './IsDarkMode';
 import ActivateDarkMode from './ActivateDarkMode';
 import DeactivateDarkMode from './DeactivateDarkMode';
-import { SetCookie, CheckCookie, DeleteCookie } from './Cookie';
+import { CheckCookie } from './Cookie';
+import { Init } from './Init';
 
-document.querySelector("#swd").onclick = () => {
-    if (CheckCookie("blinds_cookie")) {
+Init();
+document.querySelector("#blinds_dark_mode_id").onclick = () => {
+    if (CheckCookie()) {
         DeactivateDarkMode();
-        DeleteCookie("blinds_cookie");
     } else {
         ActivateDarkMode();
-        SetCookie("blinds_cookie");
     }
 }
